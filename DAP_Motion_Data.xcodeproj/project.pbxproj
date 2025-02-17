@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32DD256B2D63374000B1441A /* DAP_Motion_Data Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 32DD256A2D63374000B1441A /* DAP_Motion_Data Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32DD256C2D63374000B1441A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32DD255E2D63374000B1441A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DD25692D63374000B1441A;
+			remoteInfo = "DAP_Motion_Data Watch App";
+		};
+		32DD257D2D63374100B1441A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32DD255E2D63374000B1441A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DD25692D63374000B1441A;
+			remoteInfo = "DAP_Motion_Data Watch App";
+		};
+		32DD25872D63374200B1441A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32DD255E2D63374000B1441A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DD25692D63374000B1441A;
+			remoteInfo = "DAP_Motion_Data Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32DD25932D63374200B1441A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				32DD256B2D63374000B1441A /* DAP_Motion_Data Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32DD25642D63374000B1441A /* DAP_Motion_Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAP_Motion_Data.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DD256A2D63374000B1441A /* DAP_Motion_Data Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAP_Motion_Data Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DD257C2D63374100B1441A /* DAP_Motion_Data Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAP_Motion_Data Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DD25862D63374200B1441A /* DAP_Motion_Data Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAP_Motion_Data Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		32DD256E2D63374000B1441A /* DAP_Motion_Data Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DAP_Motion_Data Watch App";
+			sourceTree = "<group>";
+		};
+		32DD257F2D63374100B1441A /* DAP_Motion_Data Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DAP_Motion_Data Watch AppTests";
+			sourceTree = "<group>";
+		};
+		32DD25892D63374200B1441A /* DAP_Motion_Data Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DAP_Motion_Data Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32DD25672D63374000B1441A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DD25792D63374100B1441A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DD25832D63374200B1441A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32DD255D2D63374000B1441A = {
+			isa = PBXGroup;
+			children = (
+				32DD256E2D63374000B1441A /* DAP_Motion_Data Watch App */,
+				32DD257F2D63374100B1441A /* DAP_Motion_Data Watch AppTests */,
+				32DD25892D63374200B1441A /* DAP_Motion_Data Watch AppUITests */,
+				32DD25652D63374000B1441A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32DD25652D63374000B1441A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32DD25642D63374000B1441A /* DAP_Motion_Data.app */,
+				32DD256A2D63374000B1441A /* DAP_Motion_Data Watch App.app */,
+				32DD257C2D63374100B1441A /* DAP_Motion_Data Watch AppTests.xctest */,
+				32DD25862D63374200B1441A /* DAP_Motion_Data Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32DD25632D63374000B1441A /* DAP_Motion_Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DD25942D63374200B1441A /* Build configuration list for PBXNativeTarget "DAP_Motion_Data" */;
+			buildPhases = (
+				32DD25622D63374000B1441A /* Resources */,
+				32DD25932D63374200B1441A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32DD256D2D63374000B1441A /* PBXTargetDependency */,
+			);
+			name = DAP_Motion_Data;
+			packageProductDependencies = (
+			);
+			productName = DAP_Motion_Data;
+			productReference = 32DD25642D63374000B1441A /* DAP_Motion_Data.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		32DD25692D63374000B1441A /* DAP_Motion_Data Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DD25902D63374200B1441A /* Build configuration list for PBXNativeTarget "DAP_Motion_Data Watch App" */;
+			buildPhases = (
+				32DD25662D63374000B1441A /* Sources */,
+				32DD25672D63374000B1441A /* Frameworks */,
+				32DD25682D63374000B1441A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				32DD256E2D63374000B1441A /* DAP_Motion_Data Watch App */,
+			);
+			name = "DAP_Motion_Data Watch App";
+			packageProductDependencies = (
+			);
+			productName = "DAP_Motion_Data Watch App";
+			productReference = 32DD256A2D63374000B1441A /* DAP_Motion_Data Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32DD257B2D63374100B1441A /* DAP_Motion_Data Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DD25972D63374200B1441A /* Build configuration list for PBXNativeTarget "DAP_Motion_Data Watch AppTests" */;
+			buildPhases = (
+				32DD25782D63374100B1441A /* Sources */,
+				32DD25792D63374100B1441A /* Frameworks */,
+				32DD257A2D63374100B1441A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32DD257E2D63374100B1441A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				32DD257F2D63374100B1441A /* DAP_Motion_Data Watch AppTests */,
+			);
+			name = "DAP_Motion_Data Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "DAP_Motion_Data Watch AppTests";
+			productReference = 32DD257C2D63374100B1441A /* DAP_Motion_Data Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32DD25852D63374200B1441A /* DAP_Motion_Data Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DD259A2D63374200B1441A /* Build configuration list for PBXNativeTarget "DAP_Motion_Data Watch AppUITests" */;
+			buildPhases = (
+				32DD25822D63374200B1441A /* Sources */,
+				32DD25832D63374200B1441A /* Frameworks */,
+				32DD25842D63374200B1441A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32DD25882D63374200B1441A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				32DD25892D63374200B1441A /* DAP_Motion_Data Watch AppUITests */,
+			);
+			name = "DAP_Motion_Data Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "DAP_Motion_Data Watch AppUITests";
+			productReference = 32DD25862D63374200B1441A /* DAP_Motion_Data Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32DD255E2D63374000B1441A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					32DD25632D63374000B1441A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					32DD25692D63374000B1441A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					32DD257B2D63374100B1441A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 32DD25692D63374000B1441A;
+					};
+					32DD25852D63374200B1441A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 32DD25692D63374000B1441A;
+					};
+				};
+			};
+			buildConfigurationList = 32DD25612D63374000B1441A /* Build configuration list for PBXProject "DAP_Motion_Data" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32DD255D2D63374000B1441A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 32DD25652D63374000B1441A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32DD25632D63374000B1441A /* DAP_Motion_Data */,
+				32DD25692D63374000B1441A /* DAP_Motion_Data Watch App */,
+				32DD257B2D63374100B1441A /* DAP_Motion_Data Watch AppTests */,
+				32DD25852D63374200B1441A /* DAP_Motion_Data Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32DD25622D63374000B1441A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DD25682D63374000B1441A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DD257A2D63374100B1441A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DD25842D63374200B1441A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32DD25662D63374000B1441A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DD25782D63374100B1441A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DD25822D63374200B1441A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32DD256D2D63374000B1441A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32DD25692D63374000B1441A /* DAP_Motion_Data Watch App */;
+			targetProxy = 32DD256C2D63374000B1441A /* PBXContainerItemProxy */;
+		};
+		32DD257E2D63374100B1441A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32DD25692D63374000B1441A /* DAP_Motion_Data Watch App */;
+			targetProxy = 32DD257D2D63374100B1441A /* PBXContainerItemProxy */;
+		};
+		32DD25882D63374200B1441A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32DD25692D63374000B1441A /* DAP_Motion_Data Watch App */;
+			targetProxy = 32DD25872D63374200B1441A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32DD258E2D63374200B1441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32DD258F2D63374200B1441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		32DD25912D63374200B1441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DAP_Motion_Data Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DAP_Motion_Data;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bashir.DAP-Motion-Data.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		32DD25922D63374200B1441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DAP_Motion_Data Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DAP_Motion_Data;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bashir.DAP-Motion-Data.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		32DD25952D63374200B1441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = DAP_Motion_Data;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bashir.DAP-Motion-Data";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32DD25962D63374200B1441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = DAP_Motion_Data;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bashir.DAP-Motion-Data";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32DD25982D63374200B1441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bashir.DAP-Motion-Data-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAP_Motion_Data Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DAP_Motion_Data Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		32DD25992D63374200B1441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bashir.DAP-Motion-Data-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAP_Motion_Data Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DAP_Motion_Data Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		32DD259B2D63374200B1441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bashir.DAP-Motion-Data-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DAP_Motion_Data Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		32DD259C2D63374200B1441A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bashir.DAP-Motion-Data-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DAP_Motion_Data Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32DD25612D63374000B1441A /* Build configuration list for PBXProject "DAP_Motion_Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DD258E2D63374200B1441A /* Debug */,
+				32DD258F2D63374200B1441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DD25902D63374200B1441A /* Build configuration list for PBXNativeTarget "DAP_Motion_Data Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DD25912D63374200B1441A /* Debug */,
+				32DD25922D63374200B1441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DD25942D63374200B1441A /* Build configuration list for PBXNativeTarget "DAP_Motion_Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DD25952D63374200B1441A /* Debug */,
+				32DD25962D63374200B1441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DD25972D63374200B1441A /* Build configuration list for PBXNativeTarget "DAP_Motion_Data Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DD25982D63374200B1441A /* Debug */,
+				32DD25992D63374200B1441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DD259A2D63374200B1441A /* Build configuration list for PBXNativeTarget "DAP_Motion_Data Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DD259B2D63374200B1441A /* Debug */,
+				32DD259C2D63374200B1441A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32DD255E2D63374000B1441A /* Project object */;
+}
